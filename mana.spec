@@ -11,6 +11,7 @@ URL:       http://sourceforge.jp/projects/shinji/
 Source0:   http://prdownloads.sourceforge.jp/shinji/19974/%{name}-%{version}.tar.bz2
 Patch0:    mana_change_scheme_dir.diff
 Patch1:    mana_fix_destdir.diff
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires:      ocaml camlp4 ocamlfind-mini
 Requires:      gdbm
 BuildRequires: automake1.4
