@@ -1,5 +1,5 @@
 %define	version  0.2.1
-%define	release  %mkrel 1
+%define	release  %mkrel 2
 
 Name:      mana
 Summary:   Kana-Kanji conversion engine for Japanese
