@@ -1,5 +1,5 @@
 %define	version  0.2.1
-%define	release  %mkrel 3
+%define	release  %mkrel 4
 
 Name:      mana
 Version:   %{version}
@@ -22,6 +22,7 @@ BuildRequires: ocaml-findlib
 BuildRequires: gdbm
 BuildRequires: gdbm-devel
 BuildRoot: %{_tmppath}/%{name}-%{version}
+ExcludeArch: %arm %mips
 
 %description
 Kana-Kanji conversion engine for Japanese.
