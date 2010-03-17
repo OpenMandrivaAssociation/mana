@@ -1,5 +1,5 @@
 %define	version  0.2.1
-%define	release  %mkrel 4
+%define	release  %mkrel 5
 
 Name:      mana
 Version:   %{version}
