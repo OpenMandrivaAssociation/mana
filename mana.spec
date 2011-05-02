@@ -1,5 +1,5 @@
 %define	version  0.2.1
-%define	release  %mkrel 5
+%define	release  %mkrel 6
 
 Name:      mana
 Version:   %{version}
@@ -60,6 +60,6 @@ rm -rf %{buildroot}
 %{_bindir}/*
 %{_datadir}/uim/*.scm
 %{_libdir}/mana/*
-%multiarch %multiarch_bindir/*-config
+%multiarch_bindir/*-config
 
 
