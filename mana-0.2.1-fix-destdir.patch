@@ -1,0 +1,12 @@
+diff -Naur -x '*~' mana-0.2.1-fix-destdir/mana/Makefile mana-0.2.1/mana/Makefile
+--- mana-0.2.1-fix-destdir/mana/Makefile	2009-07-25 14:17:25.000000000 +0200
++++ mana-0.2.1/mana/Makefile	2009-07-25 14:19:26.000000000 +0200
+@@ -17,7 +17,7 @@
+ 
+ all : nc
+ install : mana
+-	$(INSTALL_PROGRAM) mana $(bindir)
++	$(INSTALL_PROGRAM) mana $(DESTDIR)$(bindir)
+ 
+ export OCAMLMAKEFILE = ../OCamlMakefile
+ include OCamlMakefile
