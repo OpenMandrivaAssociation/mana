@@ -3,6 +3,7 @@ Version:   0.2.1
 Release:   7
 Summary:   Kana-Kanji conversion engine for Japanese
 
+
 Group:     System/Internationalization
 License:   GPL
 URL:       http://sourceforge.jp/projects/shinji/
