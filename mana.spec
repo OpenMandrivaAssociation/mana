@@ -1,6 +1,6 @@
 Name:      mana
 Version:   0.2.1
-Release:   8
+Release:   9
 Summary:   Kana-Kanji conversion engine for Japanese
 
 
