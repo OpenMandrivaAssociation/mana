@@ -16,7 +16,7 @@ Requires:      ocaml-findlib
 Requires:      gdbm
 BuildRequires: automake1.4
 BuildRequires: ocaml
-BuildRequires: camlp4
+BuildRequires: ocaml-camlp4-devel
 BuildRequires: ocaml-findlib
 BuildRequires: gdbm
 BuildRequires: gdbm-devel
