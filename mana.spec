@@ -6,7 +6,7 @@ Summary:   Kana-Kanji conversion engine for Japanese
 
 Group:     System/Internationalization
 License:   GPL
-URL:       http://sourceforge.jp/projects/shinji/
+URL:       https://sourceforge.jp/projects/shinji/
 Source0:   http://prdownloads.sourceforge.jp/shinji/19974/%{name}-%{version}.tar.bz2
 Patch0:    mana_change_scheme_dir.diff
 Patch1:    mana-0.2.1-fix-destdir.patch
