@@ -14,6 +14,9 @@ Requires:      ocaml
 Requires:      camlp4
 Requires:      ocaml-findlib
 Requires:      gdbm
+BuildRequires:	autoconf
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
 BuildRequires: automake1.4
 BuildRequires: ocaml
 BuildRequires: ocaml-camlp4-devel
